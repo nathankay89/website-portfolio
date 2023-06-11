@@ -25,7 +25,12 @@ header{
   }
   
   .image-container:hover img{
+
     filter: brightness(50%);
+  }
+
+  .image-container:hover .text-overlay{
+    opacity: 1;
   }
 .text-overlay {
     position: absolute;
@@ -39,6 +44,7 @@ header{
   }
 
   img{
+    flex-wrap: wrap;
     max-width: 400px;
     border: solid #828e82 10px;
   }
@@ -52,6 +58,13 @@ h5{
     display: flex;
     justify-content: flex-end;
     margin-right: 2%;
+    
+}
+
+.contact-me {
+   display: flex;
+   justify-content: end;
+   gap: 1em ;
     
 }
 
