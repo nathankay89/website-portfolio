@@ -3,35 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css"/>
     <title>Week2C-NFK</title>
 </head>
 <body>
     <header class="header">
+        
         <h1>Nathan Farquhar-Kay</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact me</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-            </ul>
+        <nav class="container">
+            <a href="#about-me">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact me</a>
+            <a href="NFK Resume.pdf"> Resume</a>   
         </nav>
-        <h1>Fullstack developer</h1>
+       
     </header>
 
     <main>
+        <!--img src="./Images/tech banner 1.jpg" ref="picture of code on laptop"/-->
+        <h5>Fullstack developer</h5>
         <section id="about-me">
             <img src="./Images/headshot.jpeg" ref="a photo of Nathan Farquhar-Kay"/>
             <h2>About me</h2>
-                <P>     I'm Nathan Farquhar-Kay, and I'm thrilled to share a bit about myself with you. I'm a retired military veteran with a passion for continued education. 
+                <P> I'm Nathan Farquhar-Kay, and I'm thrilled to share a bit about myself with you. I'm a retired military veteran with a passion for continued education. 
                     
                     Ever since I was young, I've been captivated by technology. This fascination has driven me to constantly explore, learn, and grow in this field. I believe that technology has the power to change lives and shape the world we live in.
                     
@@ -47,32 +41,46 @@
         <section id="work">   
             <h2>Work</h2>
                 <ul>
-                    <li>
+                    <div class="image-container">
                         <img src="./Images/surf report.avif" ref="surfing photo"/>
-                        <h3>Surf report</h3>
-                        <h4>MERN Stack</h4>
-                    </li>
-                    <li>
+                        <div class="text-overlay">
+                             <h3>Surf report</h3>
+                             <p>MERN Stack<p>
+                        </div>
+                    </div>
+
+                    <div class="image-container">
                         <img src="./Images/LED.avif" ref="LED's"/>
-                        <h3>LED Wall</h3>
-                        <h4>Node/IoT</h4>
-                    </li>  
-                    <li>
+                        <div class="text-overlay">
+                            <h3>LED Wall</h3>
+                            <h4>Node/IoT</h4>
+                        </div>
+                    </div>  
+
+                    <div class="image-container">
                         <img src="./Images/Calculator.avif" ref="old calculator"/>
-                        <h3>Calculator</h3>
-                        <h4>React/Javascript/CSS</h4>
-                    </li>  
-                    <li>
+                        <div class="text-overlay">
+                            <h3>Calculator</h3>
+                            <h4>React/Javascript/CSS</h4>
+                            </div>
+                    </div>
+
+                    <div class="image-container"> 
                         <img src="./Images/puzzles.avif" ref="puzzle pieces"/>
-                        <h3>Pastel Puzzles</h3>
-                        <h4>MERN Stack</h4>
-                    </li>  
-                    <li>
+                        <div class="text-overlay">
+                            <h3>Pastel Puzzles</h3>
+                            <h4>MERN Stack</h4>
+                            </div>
+                    </div>
+
+                    <div class="image-container">
                         <img src="./Images/running.avif" ref="person running on road"/>
-                        <h3>Run Buddy</h3>
-                        <h4>HTML/CSS</h4>
-                    </li>
-                </ul>
+                        <div class="text-overlay">
+                            <h3>Run Buddy</h3>
+                            <h4>HTML/CSS</h4>
+                        </div>
+                    </div>
+        </ul>
         </section>
     </main>
 
