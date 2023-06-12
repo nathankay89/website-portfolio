@@ -6,6 +6,7 @@
     margin: 0%;
     
 }
+
 h5{
     padding: 25px;
     font-size: large;
@@ -17,8 +18,8 @@ body {
 
 header{
     padding: 20px;
-    background-color: #828E82;
-    color: black;
+    background-color: #3a464a;
+    
 
 }
 
@@ -114,6 +115,14 @@ h2{
 .container2 {
     display: flex;
     align-items: flex-start;
+    
+  }
+
+  .contact-footer {
+    background-color: #607B7D;
+    color: white;
+    padding: 40px 0;
+    text-align: left;
   }
 
   @media (max-width: 768px) {
